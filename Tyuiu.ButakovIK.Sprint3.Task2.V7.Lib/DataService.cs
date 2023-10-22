@@ -19,5 +19,6 @@ namespace Tyuiu.ButakovIK.Sprint3.Task2.V7.Lib
             } while (startValue <= stopValue);
             return Math.Round(sumSeries, 3);
         }
+
     }
 }
