@@ -19,7 +19,7 @@ namespace Tyuiu.ButakovIK.Sprint3.Task2.V7
             Console.WriteLine("* Спринт #3                                                                  *");
             Console.WriteLine("* Тема: Оператор цикла do-while                                              *");
             Console.WriteLine("* Таск #2                                                                    *");
-            Console.WriteLine("* Вариант #7                                                                 *");
+            Console.WriteLine("* Вариaнт #7                                                                 *");
             Console.WriteLine("* Выполнил: Бутаков Игорь Константинович | АСОиУБ-23-1                       *");
             Console.WriteLine("******************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                   *");
