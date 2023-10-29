@@ -10,6 +10,9 @@ namespace Tyuiu.ButakovIK.Sprint3.Task6.V4.Test
         [TestMethod]
         public void TestMethod1()
         {
+            DataService ds = new DataService();
+
+            Assert.AreEqual(8, ds.GetSumTheDivisors(14, 20));
         }
     }
 }

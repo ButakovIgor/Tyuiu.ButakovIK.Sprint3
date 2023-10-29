@@ -11,7 +11,20 @@ namespace Tyuiu.ButakovIK.Sprint3.Task6.V4.Lib
     {
         public int GetSumTheDivisors(int startValue, int stopValue)
         {
-            throw new NotImplementedException();
+            int count = 0;
+
+            for (int x = startValue; x <= stopValue; x++)
+            {
+                for (int d = 1; d <= x; d++)
+                {
+                    if ((x % d == 0) && (d > 9))
+                    {
+                        count++;
+                    }
+                }
+            }
+            return count;
+
         }
     }
 }
